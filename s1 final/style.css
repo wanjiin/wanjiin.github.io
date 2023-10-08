@@ -1,3 +1,211 @@
-a { 
-    color: red;
+html, body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* FOR INDEX.HTML */
+
+#title {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.titleimage {
+    position: relative;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.titleimage:hover img{
+    border: 1px solid blue;
+    z-index: 5;
+}
+
+.cssgridwrapper {
+    position: absolute;
+    text-align: center;
+    margin: 275px;
+
+
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .cssgridwrapper img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cssgridwrapper div {
+    height: 100px;
+    /* border: 1px solid #000000; */
+  }
+  
+  .cssgriddoublewide {
+    justify-items: center;
+    grid-column: 0/ span 1;
+  }
+
+  /* FOR LETTERLOST.HTML */
+
+  #letterlostheader{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .letterlostwrapper {
+    position: relative;
+  }
+
+  #letterlostbg img{
+    display: block;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+  }
+
+  #letter img{
+    /* display: none; */
+    position: absolute;
+    height: 3%;
+    bottom: 9.6%;
+    right: 54.74%;
+  }
+
+  #letterpoppy{
+    position: absolute;
+    height: 3.7%;
+    width: 1.5%;
+    left: 43.6%; 
+    top: 87.2%; 
+    border-radius: 50%; 
+    background-color: #d85834;
+  }
+
+ .reveal:hover  {
+    display: none;
+  }
+
+
+  /* FOR LETTERFOUND.HTML */
+
+  #letterfoundheader{
+    position: absolute;
+    bottom: 20%;
+    right: 1%;
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  #letterfound{
+    display: block;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+  }
+
+  #letterfound img{
+    height: 50%; 
+  }
+
+  /* FOR REDSTRING.HTML */
+
+  #redstringheader{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  #redstringfooter{
+    position: absolute;
+    bottom: 1000vh;
+    right: 1%;
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  #redstringbg img{
+    display: block;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+  }
+
+  #redstring{
+    position: relative;
+    width: .2vw;
+    height: 2000vh;
+    z-index: 5;
+    left: 50%;
+    background-color: #ff714a;
+  }
+
+  #scarf img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+  }
+
+  #redstringfooter{
+    position: absolute;
+    bottom: -1960%;
+    right: 1%;
+  
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+/* FOR FRIENDS.HTML */
+#friendsfooter{
+  position: absolute;
+  bottom: 20%;
+  right: 1%;
+
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#friendsheader{
+  position: relative;
+  top: 200px;
+  text-align: center;
+  
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#friends img{
+  display: block;
+  margin-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
 }
