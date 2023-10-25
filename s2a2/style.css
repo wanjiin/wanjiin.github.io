@@ -35,7 +35,7 @@ html, body{
     height: 30vw;
     width: 30vw;
     left: 2vw;
-    background: url("psprite.PNG");
+    background: url("psprite.png");
     background-size: 30vw;
     background-repeat: no-repeat;
 }
@@ -59,7 +59,7 @@ html, body{
     margin-top: -28vw;
     margin-left: 22vw;
     display: block;
-    background: url("sparkle.PNG");
+    background: url("sparkle.png");
     background-size: 10vw;
     background-repeat: no-repeat;
 }
@@ -90,7 +90,7 @@ html, body{
     width: 30vw;
     left: 34vw;
     top: -40vw;
-    background: url("ksprite.PNG");
+    background: url("ksprite.png");
     background-size: 30vw;
     background-repeat: no-repeat;
 }
@@ -120,7 +120,7 @@ html, body{
     width: 30vw;
     left: 64vw;
     top: -70vw;
-    background: url("zsprite.PNG");
+    background: url("zsprite.png");
     background-size: 30vw;
     background-repeat: no-repeat;
 }
@@ -144,7 +144,7 @@ html, body{
     margin-top: -88vw;
     margin-left: 82vw;
     display: block;
-    background: url("sparkle3.PNG");
+    background: url("sparkle3.png");
     background-size: 10vw;
     background-repeat: no-repeat;
 }
