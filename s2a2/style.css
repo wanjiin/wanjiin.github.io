@@ -137,27 +137,27 @@ html, body{
     to {background-position: 0 -90vw}
 }
 
-#sparkle3 {
+#sparklethree {
     opacity: 0;
     height: 10vw;
     width: 10vw;
     margin-top: -88vw;
     margin-left: 82vw;
     display: block;
-    background: url("sparkle3.png");
+    background: url("sparklethree.png");
     background-size: 10vw;
     background-repeat: no-repeat;
 }
 
-#zucchini:hover ~ #sparkle3 {
+#zucchini:hover ~ #sparklethree {
     opacity: 1;
-    animation-name: sparkle3sprite;
+    animation-name: sparklethreesprite;
     animation-duration: .5s;
     animation-timing-function: steps(3);
     animation-iteration-count: infinite;
 }
 
-@keyframes sparkle3sprite {
+@keyframes sparklethreesprite {
     from { background-position: 0 0vw}
     to {background-position: 0 -30vw}
 }
