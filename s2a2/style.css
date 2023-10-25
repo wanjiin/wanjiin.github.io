@@ -1,0 +1,163 @@
+html, body{
+    min-height: 100vh;
+    background-color:aliceblue;
+}
+
+/* TEXT STYLING */
+#title {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    
+    font-size: 4vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+/* GENERAL GOURD STYLING */
+
+#gourdwrapper{
+    height: 0vh;
+    padding: -30vh;
+    top: 100px;
+    position: relative;
+}
+ 
+/* PUMPKIN STYLING */
+
+#pumpkinwrapper {
+    height: 40vw;
+    width: 30vw;
+}
+ 
+#pumpkin {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    left: 2vw;
+    background: url("psprite.PNG");
+    background-size: 30vw;
+    background-repeat: no-repeat;
+}
+
+#pumpkin:hover {
+    animation-name: pumpkinsprite;
+    animation-duration: .5s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: infinite;
+}
+ 
+@keyframes pumpkinsprite {
+    from { background-position: 0 0vw}
+    to {background-position: 0 -90vw}
+}
+
+#sparkles {
+    opacity: 0;
+    height: 10vw;
+    width: 10vw;
+    margin-top: -28vw;
+    margin-left: 22vw;
+    display: block;
+    background: url("sparkle.PNG");
+    background-size: 10vw;
+    background-repeat: no-repeat;
+}
+
+
+#pumpkin:hover ~ #sparkles {
+    opacity: 1;
+    animation-name: sparklesprite;
+    animation-duration: .5s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: infinite;
+}
+
+@keyframes sparklesprite {
+    from { background-position: 0 0vw}
+    to {background-position: 0 -30vw}
+}
+
+/* SQUASH STYLING */
+#squashwrapper {
+    height: 30vw;
+    width: 30vw;
+}
+
+#squash {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    left: 34vw;
+    top: -40vw;
+    background: url("ksprite.PNG");
+    background-size: 30vw;
+    background-repeat: no-repeat;
+}
+
+#squash:hover {
+    animation-name: squashsprite;
+    animation-duration: .5s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: infinite;
+}
+ 
+@keyframes squashsprite {
+    from { background-position: 0 0vw}
+    to {background-position: 0 -90vw}
+}
+ 
+/* ZUCCHINI STYLING */
+
+#zucchiniwrapper{
+    height: 30vw;
+    width: 30vw;
+}
+
+#zucchini {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    left: 64vw;
+    top: -70vw;
+    background: url("zsprite.PNG");
+    background-size: 30vw;
+    background-repeat: no-repeat;
+}
+
+#zucchini:hover {
+    animation-name: zucchinisprite;
+    animation-duration: .5s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: infinite;
+}
+ 
+@keyframes zucchinisprite {
+    from { background-position: 0 0vw}
+    to {background-position: 0 -90vw}
+}
+
+#sparkle3 {
+    opacity: 0;
+    height: 10vw;
+    width: 10vw;
+    margin-top: -88vw;
+    margin-left: 82vw;
+    display: block;
+    background: url("sparkle3.PNG");
+    background-size: 10vw;
+    background-repeat: no-repeat;
+}
+
+#zucchini:hover ~ #sparkle3 {
+    opacity: 1;
+    animation-name: sparkle3sprite;
+    animation-duration: .5s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: infinite;
+}
+
+@keyframes sparkle3sprite {
+    from { background-position: 0 0vw}
+    to {background-position: 0 -30vw}
+}
