@@ -39,7 +39,7 @@
 
 .cssgridwrapper {
   display: grid;
-  margin-left: 10vw;
+  margin-left: 20vw;
   grid-template-columns: repeat(8, 2fr);
   gap: 10 px;
 }
@@ -51,7 +51,16 @@
 }
 
 .weianHuman img{
-  width: 340px;
-  height: 470px;
+  width: 210px;
+  height: 380px;
+  margin-top: 40px;
   
+}
+
+.weianMonster img{
+  width: 260px;
+  height: 380px;
+  margin-top: 40px;
+  margin-left: 80px;
+
 }
