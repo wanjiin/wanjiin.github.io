@@ -1,0 +1,361 @@
+html, body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+#s1a1 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 20vh;
+    left: 20vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#s1a2 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 70vh;
+    left: 10vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#s1a3 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 50vh;
+    left: 40vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#s2a1 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 80vh;
+    left: 30vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#s2a2 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 70vh;
+    left: 70vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#s2a3 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 10vh;
+    left: 90vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#s3a1 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 50vh;
+    left: 50vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#s3a2 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 10vh;
+    left: 80vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#s3a3 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 80vh;
+    left: 60vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+
+
+/* WEEK 2 READING - CARRION */
+#sibling1 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 20vh;
+    left: 30vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#reading1 {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: 30vh;
+    left: 50vw;
+    float: left;
+
+}
+
+#sibling1:hover ~ #reading1 {
+    color: grey;
+}
+
+/* WEEK 3 READING - SCHWULST & U */
+#sibling2 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 60vh;
+    left: 80vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#reading2 {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: 50vh;
+    left: 10vw;
+    float: left;
+}
+
+#sibling2:hover ~ #reading2 {
+    color: grey;
+}
+
+/* WEEK 4 READING - LUDOVICO & CRAMER */
+#sibling3 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 60vh;
+    left: 60vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#reading3 {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: 70vh;
+    left: 10vw;
+    float: left;
+}
+
+#sibling3:hover ~ #reading3 {
+    color: grey;
+}
+
+/* WEEK 6 READING - PRICE */
+#sibling4 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 30vh;
+    left: 10vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#reading4 {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: 40vh;
+    left: 10vw;
+    float: left;
+}
+
+#sibling4:hover ~ #reading4 {
+    color: grey;
+}
+
+/* WEEK 5 READING - LIALINA */
+#sibling5 {
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 80vh;
+    left: 90vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#reading5 {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: -10vh;
+    left: 10vw;
+    float: left;
+}
+
+#sibling5:hover ~ #reading5 {
+    color: grey;
+}
+
+/* WEEK 8 READING - COKLYAT & FINNEGAN */
+#sibling6{
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 80vh;
+    left: 20vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#reading6 {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: 0vh;
+    left: 10vw;
+    float: left;
+}
+
+#sibling6:hover ~ #reading6 {
+    color: grey;
+}
+
+/* WEEK 9 READING - DUVALL */
+#sibling7{
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 60vh;
+    left: 40vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#reading7 {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: 10vh;
+    left: 10vw;
+    float: left;
+}
+
+#sibling7:hover ~ #reading7 {
+    color: grey;
+}
+
+/* WEEK 12 READING - TUER */
+#sibling8{
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 40vh;
+    left: 75vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#reading8 {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: 0vh;
+    left: 10vw;
+    float: left;
+}
+
+#sibling8:hover ~ #reading8 {
+    color: grey;
+}
+
+/* WEEK 13 READING - SOULELLIS */
+#sibling9{
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 80vh;
+    left: 50vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#reading9 {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: 5vh;
+    left: 20vw;
+    float: left;
+}
+
+#sibling9:hover ~ #reading9 {
+    color: grey;
+}
+
+/* WEEK 14 READING - BOMANI & BORNO */
+#sibling10{
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 20vh;
+    left: 80vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#reading10 {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: 10vh;
+    left: 0vw;
+    float: left;
+}
+
+#sibling10:hover ~ #reading10 {
+    color: grey;
+}
+
+/* WEEK 15 READING - STEYERL */
+#sibling11{
+    position: relative;
+    width: 10px; 
+    height: 10px;
+    top: 60vh;
+    left: 50vw;
+    border-radius: 50%;
+    background-color:black;
+}
+
+#reading11 {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    top: 20vh;
+    left: 10vw;
+    float: left;
+}
+
+#sibling11:hover ~ #reading11 {
+    color: grey;
+}
